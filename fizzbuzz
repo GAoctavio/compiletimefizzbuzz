@@ -1,0 +1,3 @@
+g++ -DLIMIT=$1 compfizzbuzz.cpp -o comp -O2
+./comp
+rm comp
